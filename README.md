@@ -14,7 +14,7 @@ Let's say we have a super project that contains multiple submodules. And we want
 
 Example _mod/gulpfile.js_
 
-```
+```js
 var gulp = require('gulp');
 
 gulp.task('build', function() {
@@ -30,7 +30,7 @@ module.exports = "for giggles!";
 
 Example _gulpfile.js_
 
-```
+```js
 var gulp = require('gulp');
 require('gulp-submodule')(gulp);
 
