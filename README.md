@@ -52,13 +52,19 @@ gulp.task('watch', ['mod:watch'], function() {
  - `gulp` gulp object
  - `separator` separator string (default `:`)
 
-### gulp.submodule(module[, gulpfile])
+### gulp.submodule(module[, options])
  - `module` submodule name
- - `gulpfile` path to submodules gulpfile
+ - `options` options object
+   - `package` | `pkg` dependency string (ie. 'submodule/gulpfile.js')
+   - `filepath` path to gulp file or directory containing `gulpfile.js` 
 
-If optional `gulpfile` is omitted then module name is used as the modules directory.
+If `options` is omitted then module name is used as the modules directory.
 
-`gulpfile` can be a submodule directory or full path to the gulpfile. If `gulpfile` points to a directory, then `gulpfile.js` in that directory is loaded.
+Defining `package` is same as `require(package)`.
+
+`filepath` can be a submodule directory or full path to the gulpfile. If `filepath` points to a directory, then `gulpfile.js` in that directory is loaded.
+
+If both `package` and `filepath` is defined then `package` is used.
 
 Returns anything that submodule exports.
 
