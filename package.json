@@ -1,15 +1,15 @@
 {
-	"name": "gulp-submodule",
-	"version": "0.1.0",
-	"main": "index.js",
-	"description": "Import gulp tasks from sub-modules",
-	"author": "Harri Kovalainen <hakovala@gmail.com>",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/hakovala/gulp-submodule.git"
-	},
-	"bugs": {
-		"url": "https://github.com/hakovala/gulp-submodule/issues"
-	},
-	"license": "MIT"
+  "name": "gulp-submodule",
+  "version": "0.1.1",
+  "main": "index.js",
+  "description": "Import gulp tasks from sub-modules",
+  "author": "Harri Kovalainen <hakovala@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hakovala/gulp-submodule.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hakovala/gulp-submodule/issues"
+  },
+  "license": "MIT"
 }
