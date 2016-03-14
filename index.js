@@ -9,6 +9,8 @@ module.exports = function (gulp, sep) {
 	var submodules = {};
 
 	gulp.submodule = function(submodule, opt) {
+		opt = opt || {};
+
 		var source;
 
 		if (opt.package || opt.pkg) {
