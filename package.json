@@ -1,6 +1,6 @@
 {
   "name": "gulp-submodule",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "index.js",
   "description": "Import gulp tasks from sub-modules",
   "author": "Harri Kovalainen <hakovala@gmail.com>",
